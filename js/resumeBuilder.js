@@ -23,8 +23,7 @@ var bio = {
 };
 
 var work = {
-  "jobs": [
-    {
+  "jobs": [{
       "employer": "Federal Reserve Bank of San Francisco",
       "title": "Lead User Interface Developer",
       "dates": "07/01/2012 - 10/17/2015",
@@ -49,8 +48,7 @@ var work = {
 };
 
 var projects = {
-  "projects": [
-    {
+  "projects": [{
       "title": "FRBSF.org Rebrand",
       "dates": "05/01/2013 - 09/01/2015",
       "description": "Rebranded the Federal Reserve Bank of San Francisco's website to be more responsive, accessible, legible, and searchable.",
@@ -63,8 +61,7 @@ var projects = {
 };
 
 var education = {
-  "schools": [
-    {
+  "schools": [{
      "name": "California State University, East Bay",
      "location": "Hayward, CA",
      "degree": "MA",
@@ -85,8 +82,7 @@ var education = {
     "url": "http://mca.edu/academics/undergraduate/graphic-design/"
    }
   ],
-  "onlineCourses": [
-    {
+  "onlineCourses": [{
       "title": "MM 6100 - Tech I: Principles of Digital Multimedia",
       "school": "California State University, East Bay",
       "date": 2006,
@@ -237,7 +233,5 @@ education.display = function() {
 };
 
 education.display();
-
-// $('#main').append(internationalizeButton);
 
 $('#mapDiv').append(googleMap);
